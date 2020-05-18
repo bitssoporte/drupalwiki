@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Open Space Bits Americas</title>
-	<link rel="icon" href="img/Fevicon.png" type="image/png">
+	<link rel="icon" href="img/Favicon.ico" type="image/png">
 
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
@@ -41,9 +41,9 @@
       <div class="row">
         <div class="col-lg-6 align-self-center mb-5 mb-lg-0">
           <div class="innovative-wrapper">
-            <h3 class="primary-text">Innovative With Experience <br class="d-none d-xl-block"> UX Design 2019</h3>
-            <p class="h4 primary-text2 mb-3">Where The business World Meets</p>
-            <p>Morning steas great earth for divide our good sixth called abunda itseld appear fisrd seaton upon above may bearing all moveth morning make subdue stars they are a goreat eart divide our good sixth one of that</p>
+            <h3 class="primary-text">Open Space <br class="d-none d-xl-block"> Bits Americas 2020</h3>
+            <p class="h4 primary-text2 mb-3">Compartamos nuestros saberes</p>
+            <p>Un espacio donde algunos de nuestros colaboradores, nos compartirán su conocimiento en diferentes temas. Contaremos con la presencia de un conferencista internacional, experto en tecnologías de cuarta revolución industrial.</p>
           </div>
         </div>
         <div class="col-lg-6 pl-xl-5">
@@ -55,16 +55,16 @@
             </li>
             <li class="clockdiv-single clockdiv-hour">
               <h1 id="hours" class="hours">30</h1>
-              <span class="smalltext">Hours</span>
+              <span class="smalltext">Horas</span>
             </li>
             <li class="clockdiv-single clockdiv-minute">
               <h1 id="minutes" class="minutes">30</h1>
-              <span class="smalltext">Mins</span>
+              <span class="smalltext">Minutos</span>
             </li>
           </ul>
 
           <div class="clockdiv-content text-center">
-            <p class="h4 primary-text2 mb-2">23 de Mayo, Colombia</p>
+            <p class="h4 primary-text2 mb-2">22 de Mayo, Colombia</p>
             <!--<a class="button button-link" href="#">Get Ticket</a>-->
           </div>
         </div>
@@ -78,8 +78,7 @@
   <section class="section-margin mb-5 pb-5">
     <div class="container">
       <div class="section-intro text-center pb-98px">
-        <p class="section-intro__title">Join the event</p>
-        <h2 class="primary-text">Conference Schedule</h2>
+        <h2 class="primary-text">Agenda</h2>
         <img src="img/home/section-style.png" alt="">
       </div>
 
