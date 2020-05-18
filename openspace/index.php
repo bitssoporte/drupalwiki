@@ -27,7 +27,7 @@
   <section class="hero-banner">
     <div class="container text-center">
       <span class="hero-banner-icon"><i class="flaticon-sing"></i></span>
-      <p>23 de Mayo</p>
+      <p>22 de Mayo</p>
       <h1>OPEN SPACE BITS 2020</h1>
       <!--<a class="button button-header" href="#">Buy Ticket</a>-->
     </div>
@@ -74,173 +74,6 @@
   <!--================ Innovation section End =================-->
 
 
-  <!--================ Join section Start =================-->
-  <section class="section-margin">
-    <div class="container">
-      <div class="section-intro text-center pb-98px">
-        <p class="section-intro__title">Join the event</p>
-        <h2 class="primary-text">Why Join Ummet</h2>
-        <img src="img/home/section-style.png" alt="">
-      </div>
-
-
-      <div class="d-lg-flex justify-content-between">
-        <div class="card-feature mb-5 mb-lg-0">
-          <div class="feature-icon">
-            <i class="flaticon-prize"></i>
-          </div>
-          <h3>Always First Service</h3>
-          <p>His likeness beast moved domini moved above meat all fly blessed greater creepeth you itself living room </p>
-        </div>
-
-        <div class="card-feature mb-5 mb-lg-0">
-          <div class="feature-icon">
-            <i class="flaticon-earth-globe"></i>
-          </div>
-          <h3>International Business</h3>
-          <p>His likeness beast moved domini moved above meat all fly blessed greater creepeth you itself living room </p>
-        </div>
-
-        <div class="card-feature mb-5 mb-lg-0">
-          <div class="feature-icon">
-            <i class="flaticon-sing"></i>
-          </div>
-          <h3>World Great Speaker</h3>
-          <p>His likeness beast moved domini moved above meat all fly blessed greater creepeth you itself living room </p>
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-12 text-center">
-          <a class="button mr-3 mb-2" href="#">Learn More</a>
-          <a class="button mb-2" href="#">Buy Ticket</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--================ Join section End =================-->
-
-
-  <!--================ Speaker section Start =================-->
-  <section class="speaker-bg section-padding">
-    <div class="container">
-      <div class="section-intro section-intro-white text-center pb-98px">
-        <p class="section-intro__title">Join the event</p>
-        <h2 class="primary-text">Meet The Speakers</h2>
-        <img src="img/home/section-style.png" alt="">
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <div class="card-speaker">
-            <img class="card-img rounded-0" src="img/home/speaker-1.png" alt="">
-            <div class="speaker-footer">
-              <h4>Jhon Leonar</h4>
-              <p>UX/UI Designer Microsoft</p>
-            </div>
-            <div class="speaker-overlay">
-              <ul class="speaker-social">
-                <li><a href="#"><i class="ti-facebook"></i></a></li>
-                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                <li><a href="#"><i class="ti-instagram"></i></a></li>
-                <li><a href="#"><i class="ti-skype"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <div class="card-speaker">
-            <img class="card-img rounded-0" src="img/home/speaker-2.png" alt="">
-            <div class="speaker-footer">
-              <h4>Donald Markin</h4>
-              <p>UX/UI Designer Microsoft</p>
-            </div>
-            <div class="speaker-overlay">
-              <ul class="speaker-social">
-                <li><a href="#"><i class="ti-facebook"></i></a></li>
-                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                <li><a href="#"><i class="ti-instagram"></i></a></li>
-                <li><a href="#"><i class="ti-skype"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <div class="card-speaker">
-            <img class="card-img rounded-0" src="img/home/speaker-3.png" alt="">
-            <div class="speaker-footer">
-              <h4>Donald Markin</h4>
-              <p>UX/UI Designer Microsoft</p>
-            </div>
-            <div class="speaker-overlay">
-              <ul class="speaker-social">
-                <li><a href="#"><i class="ti-facebook"></i></a></li>
-                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                <li><a href="#"><i class="ti-instagram"></i></a></li>
-                <li><a href="#"><i class="ti-skype"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="w-100 mb-50px d-none d-lg-block"></div>
-
-        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <div class="card-speaker">
-            <img class="card-img rounded-0" src="img/home/speaker-1.png" alt="">
-            <div class="speaker-footer">
-              <h4>Donald Markin</h4>
-              <p>UX/UI Designer Microsoft</p>
-            </div>
-            <div class="speaker-overlay">
-              <ul class="speaker-social">
-                <li><a href="#"><i class="ti-facebook"></i></a></li>
-                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                <li><a href="#"><i class="ti-instagram"></i></a></li>
-                <li><a href="#"><i class="ti-skype"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <div class="card-speaker">
-            <img class="card-img rounded-0" src="img/home/speaker-2.png" alt="">
-            <div class="speaker-footer">
-              <h4>Donald Markin</h4>
-              <p>UX/UI Designer Microsoft</p>
-            </div>
-            <div class="speaker-overlay">
-              <ul class="speaker-social">
-                <li><a href="#"><i class="ti-facebook"></i></a></li>
-                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                <li><a href="#"><i class="ti-instagram"></i></a></li>
-                <li><a href="#"><i class="ti-skype"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <div class="card-speaker">
-            <img class="card-img rounded-0" src="img/home/speaker-3.png" alt="">
-            <div class="speaker-footer">
-              <h4>Jhon Leonar</h4>
-              <p>UX/UI Designer Microsoft</p>
-            </div>
-            <div class="speaker-overlay">
-              <ul class="speaker-social">
-                <li><a href="#"><i class="ti-facebook"></i></a></li>
-                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                <li><a href="#"><i class="ti-instagram"></i></a></li>
-                <li><a href="#"><i class="ti-skype"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--================ Speaker section End =================-->
-
-
   <!--================ Schedule section Start =================-->
   <section class="section-margin mb-5 pb-5">
     <div class="container">
@@ -257,19 +90,19 @@
               <li class="nav-item text-center">
                 <a data-toggle="tab" href="#day1">
                   <h4>Sala 1</h4>
-                  <p>23 jan, 2019</p>
+                  <p>22 Mayo, 2020</p>
                 </a>
               </li>
               <li class="nav-item text-center">
                 <a class="active" data-toggle="tab" href="#day2">
                   <h4>Sala 2</h4>
-                  <p>23 jan, 2019</p>
+                  <p>22 Mayo, 2020</p>
                 </a>
               </li>
               <li class="nav-item text-center">
                 <a data-toggle="tab" href="#day3">
                   <h4>Sala 3</h4>
-                  <p>23 jan, 2019</p>
+                  <p>22 Mayo, 2020</p>
                 </a>
               </li>
             </ul>
