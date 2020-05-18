@@ -88,13 +88,13 @@
           <div class="scheduleTab">
             <ul class="nav nav-tabs">
               <li class="nav-item text-center">
-                <a data-toggle="tab" href="#day1">
+                <a class="active" data-toggle="tab" href="#day1">
                   <h4>Sala 1</h4>
                   <p>22 Mayo, 2020</p>
                 </a>
               </li>
               <li class="nav-item text-center">
-                <a class="active" data-toggle="tab" href="#day2">
+                <a  data-toggle="tab" href="#day2">
                   <h4>Sala 2</h4>
                   <p>22 Mayo, 2020</p>
                 </a>
@@ -109,24 +109,33 @@
 
             <!-- Tab panes -->
             <div class="tab-content">
-              <div id="day1" class="tab-pane">
+              <div class="col-md-12 card mx-auto">
+                <div class="schedule-content mx-auto">
+                  <p class="schedule-date">8.00 AM - 9.00 AM</p>
+                  <a class="schedule-title" href="#">
+                    <h3>BIENVENIDA</h3>
+                  </a>
+                </div>
+              </div>
 
-                <div class="schedule-card">
+              <div id="day1" class="tab-pane active">
+
+                <div class="schedule-card mt-4">
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/testimonial/testimonial1.png" alt="">
-                        <h3>Adam Jamsmith</h3>
-                        <p>UX/UI Designer</p>
+                        <img src="img/speakers/avatar-hombre.jpg" alt="">
+                        <h3>Jose Barbosa</h3>
+                        <p>Director de proyectos</p>
                       </div>
                     </div>
                     <div class="col-md-9 align-self-center">
                       <div class="schedule-content">
-                        <p class="schedule-date">9.00 AM - 10.30 AM</p>
+                        <p class="schedule-date">9.00 AM - 10.00 AM</p>
                         <a class="schedule-title" href="#">
-                          <h3>Previous Year achivement</h3>
+                          <h3>El aprendizaje de las máquinas (Machine Learning) - Industria 4.0</h3>
                         </a>
-                        <p>And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning </p>
+                        <p>El aprendizaje de las máquinas (Machine Learning) - Industria 4.0</p>
                       </div>
                     </div>
                   </div>
@@ -136,42 +145,86 @@
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/testimonial/testimonial2.png" alt="">
-                        <h3>Adam Jamsmith</h3>
-                        <p>UX/UI Designer</p>
+                        <img src="img/speakers/avatar-mujer.png" alt="">
+                        <h3>Xiomara Cruz</h3>
+                        <p>Directora Financiera</p>
                       </div>
                     </div>
                     <div class="col-md-9 align-self-center">
                       <div class="schedule-content">
-                        <p class="schedule-date">9.00 AM - 10.30 AM</p>
+                        <p class="schedule-date">10.00 AM - 11.00 AM</p>
                         <a class="schedule-title" href="#">
-                          <h3>Previous Year achivement</h3>
+                          <h3>Impactos tributarios en personas naturales</h3>
                         </a>
-                        <p>And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning </p>
+                        <p>Impactos tributarios en personas naturales</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="schedule-card">
+                  <div class="row no-gutters">
+                    <div class="col-md-3">
+                      <div class="card-identity">
+                        <img src="img/speakers/erika.png" alt="">
+                        <img src="img/speakers/yeltsein.jpg" alt="">
+                        <h3>Erika y Yeltsein</h3>
+                        <p>Talento humano</p>
+                      </div>
+                    </div>
+                    <div class="col-md-9 align-self-center">
+                      <div class="schedule-content">
+                        <p class="schedule-date">11.00 AM - 12.00 PM</p>
+                        <a class="schedule-title" href="#">
+                          <h3>Psicología Positiva</h3>
+                        </a>
+                        <p>Psicología Positiva </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="schedule-card">
+                  <div class="row no-gutters">
+                    <div class="col-md-3">
+                      <div class="card-identity">
+                        <img src="img/speakers/avatar-mujer.png" alt="">
+                        <h3>Orfenys Perez</h3>
+                        <p>Desarrolladora de Software</p>
+                      </div>
+                    </div>
+                    <div class="col-md-9 align-self-center">
+                      <div class="schedule-content">
+                        <p class="schedule-date">2.00 PM - 3.00 PM</p>
+                        <a class="schedule-title" href="#">
+                          <h3>Pruebas Automatizadas</h3>
+                        </a>
+                        <p>Pruebas Automatizadas</p>
                       </div>
                     </div>
                   </div>
                 </div>
 
               </div>
-              <div id="day2" class="tab-pane active">
 
-                <div class="schedule-card">
+              <div id="day2" class="tab-pane">
+
+               <div class="schedule-card mt-4">
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/testimonial/testimonial3.png" alt="">
-                        <h3>Adam Jamsmith</h3>
-                        <p>UX/UI Designer</p>
+                        <img src="img/speakers/avatar-hombre.jpg" alt="">
+                        <h3>Roberto Gonzalez</h3>
+                        <p>Desarrollador de Negocios</p>
                       </div>
                     </div>
                     <div class="col-md-9 align-self-center">
                       <div class="schedule-content">
-                        <p class="schedule-date">9.00 AM - 10.30 AM</p>
+                        <p class="schedule-date">9.00 AM - 10.00 AM</p>
                         <a class="schedule-title" href="#">
-                          <h3>Previous Year achivement</h3>
+                          <h3>Revolución del Codigo Abierto Odoo y Moodle</h3>
                         </a>
-                        <p>And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning </p>
+                        <p>Revolución del Codigo Abierto Odoo y Moodle</p>
                       </div>
                     </div>
                   </div>
@@ -181,18 +234,18 @@
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/testimonial/testimonial1.png" alt="">
-                        <h3>Adam Jamsmith</h3>
-                        <p>UX/UI Designer</p>
+                        <img src="img/speakers/avatar-hombre.jpg" alt="">
+                        <h3>Ludwring Liccien</h3>
+                        <p>Desarrollador de software</p>
                       </div>
                     </div>
                     <div class="col-md-9 align-self-center">
                       <div class="schedule-content">
-                        <p class="schedule-date">9.00 AM - 10.30 AM</p>
+                        <p class="schedule-date">10.00 AM - 11.00 AM</p>
                         <a class="schedule-title" href="#">
-                          <h3>Previous Year achivement</h3>
+                          <h3>Microservicios con NestJs</h3>
                         </a>
-                        <p>And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning </p>
+                        <p>Microservicios con NestJs</p>
                       </div>
                     </div>
                   </div>
@@ -202,18 +255,40 @@
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/testimonial/testimonial2.png" alt="">
-                        <h3>Adam Jamsmith</h3>
-                        <p>UX/UI Designer</p>
+                        <img src="img/speakers/avatar-hombre.jpg" alt="">
+                        <h3>Luis Bonilla</h3>
+                        <p>Líder de proyectos</p>
                       </div>
                     </div>
                     <div class="col-md-9 align-self-center">
                       <div class="schedule-content">
-                        <p class="schedule-date">9.00 AM - 10.30 AM</p>
+                        <p class="schedule-date">11.00 AM - 12.00 PM</p>
                         <a class="schedule-title" href="#">
-                          <h3>Previous Year achivement</h3>
+                          <h3>Scrum Developer</h3>
                         </a>
-                        <p>And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning </p>
+                        <p>Scrum Developer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="schedule-card">
+                  <div class="row no-gutters">
+                    <div class="col-md-3">
+                      <div class="card-identity">
+                        <img src="img/speakers/avatar-mujer.png" alt="">
+                        <img src="img/speakers/avatar-hombre.jpg" alt="">
+                        <h3>Elizabeth y Alberto</h3>
+                        <p>Desarrolladores de Software</p>
+                      </div>
+                    </div>
+                    <div class="col-md-9 align-self-center">
+                      <div class="schedule-content">
+                        <p class="schedule-date">2.00 PM - 3.00 PM</p>
+                        <a class="schedule-title" href="#">
+                          <h3>¿Cómo se hace un ingeniero en cuba?</h3>
+                        </a>
+                        <p>¿Cómo se hace un ingeniero en cuba?</p>
                       </div>
                     </div>
                   </div>
@@ -221,22 +296,22 @@
 
               </div>
               <div id="day3" class="tab-pane">
-                <div class="schedule-card">
+                <div class="schedule-card mt-4">
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/testimonial/testimonial3.png" alt="">
-                        <h3>Adam Jamsmith</h3>
-                        <p>UX/UI Designer</p>
+                        <img src="img/speakers/avatar-hombre.jpg" alt="">
+                        <h3>Cristian De La Cruz</h3>
+                        <p>Desarrollador de software</p>
                       </div>
                     </div>
                     <div class="col-md-9 align-self-center">
                       <div class="schedule-content">
-                        <p class="schedule-date">9.00 AM - 10.30 AM</p>
+                        <p class="schedule-date">9.00 AM - 10.00 AM</p>
                         <a class="schedule-title" href="#">
-                          <h3>Previous Year achivement</h3>
+                          <h3>Ingenieria de requerimientos</h3>
                         </a>
-                        <p>And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning </p>
+                        <p>Ingenieria de requerimientos</p>
                       </div>
                     </div>
                   </div>
@@ -246,18 +321,18 @@
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/testimonial/testimonial1.png" alt="">
-                        <h3>Adam Jamsmith</h3>
-                        <p>UX/UI Designer</p>
+                        <img src="img/speakers/julian_guerrero.png" alt="">
+                        <h3>Julián Guerrero</h3>
+                        <p>Desarrollador de software</p>
                       </div>
                     </div>
                     <div class="col-md-9 align-self-center">
                       <div class="schedule-content">
-                        <p class="schedule-date">9.00 AM - 10.30 AM</p>
+                        <p class="schedule-date">10.00 AM - 11.00 AM</p>
                         <a class="schedule-title" href="#">
-                          <h3>Previous Year achivement</h3>
+                          <h3>Usabilidad UX</h3>
                         </a>
-                        <p>And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning </p>
+                        <p>Usabilidad UX</p>
                       </div>
                     </div>
                   </div>
@@ -267,108 +342,76 @@
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/testimonial/testimonial2.png" alt="">
-                        <h3>Adam Jamsmith</h3>
-                        <p>UX/UI Designer</p>
+                        <img src="img/speakers/avatar-mujer.png" alt="">
+                        <h3>Alexandra Rojas</h3>
+                        <p>Desarrolladora de Negocios/p>
                       </div>
                     </div>
                     <div class="col-md-9 align-self-center">
                       <div class="schedule-content">
-                        <p class="schedule-date">9.00 AM - 10.30 AM</p>
+                        <p class="schedule-date">11.00 AM - 12.00 PM</p>
                         <a class="schedule-title" href="#">
-                          <h3>Previous Year achivement</h3>
+                          <h3>Blockchain y tecnologías disruptivas</h3>
                         </a>
-                        <p>And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning </p>
+                        <p>Blockchain y tecnologías disruptivas </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="schedule-card">
+                  <div class="row no-gutters">
+                    <div class="col-md-3">
+                      <div class="card-identity">
+                        <img src="img/speakers/avatar-mujer.png" alt="">
+                        <img src="img/speakers/avatar-hombre.jpg" alt="">
+                        <h3>Ximena y Edward</h3>
+                        <p>Líder de proyectos y desarrollador de software</p>
+                      </div>
+                    </div>
+                    <div class="col-md-9 align-self-center">
+                      <div class="schedule-content">
+                        <p class="schedule-date">2.00 PM - 3.00 PM</p>
+                        <a class="schedule-title" href="#">
+                          <h3>Mindfulness</h3>
+                        </a>
+                        <p>Mindfulness</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div id="day4" class="tab-pane">
-                <div class="schedule-card">
-                  <div class="row no-gutters">
-                    <div class="col-md-3">
-                      <div class="card-identity">
-                        <img src="img/testimonial/testimonial3.png" alt="">
-                        <h3>Adam Jamsmith</h3>
-                        <p>UX/UI Designer</p>
-                      </div>
-                    </div>
-                    <div class="col-md-9 align-self-center">
-                      <div class="schedule-content">
-                        <p class="schedule-date">9.00 AM - 10.30 AM</p>
-                        <a class="schedule-title" href="#">
-                          <h3>Previous Year achivement</h3>
-                        </a>
-                        <p>And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning </p>
-                      </div>
+
+              <div class="schedule-card">
+                <div class="row no-gutters">
+                  <div class="col-md-3 mt-4">
+                    <div class="card-identity">
+                      <img src="img/speakers/mauricio_tovar.jpg" alt="">
+                      <h3>Mauricio Tovar</h3>
+                      <p>Co-Director IntiColombia</p>
                     </div>
                   </div>
-                </div>
-
-                <div class="schedule-card">
-                  <div class="row no-gutters">
-                    <div class="col-md-3">
-                      <div class="card-identity">
-                        <img src="img/testimonial/testimonial1.png" alt="">
-                        <h3>Adam Jamsmith</h3>
-                        <p>UX/UI Designer</p>
-                      </div>
-                    </div>
-                    <div class="col-md-9 align-self-center">
-                      <div class="schedule-content">
-                        <p class="schedule-date">9.00 AM - 10.30 AM</p>
-                        <a class="schedule-title" href="#">
-                          <h3>Previous Year achivement</h3>
-                        </a>
-                        <p>And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="schedule-card">
-                  <div class="row no-gutters">
-                    <div class="col-md-3">
-                      <div class="card-identity">
-                        <img src="img/testimonial/testimonial2.png" alt="">
-                        <h3>Adam Jamsmith</h3>
-                        <p>UX/UI Designer</p>
-                      </div>
-                    </div>
-                    <div class="col-md-9 align-self-center">
-                      <div class="schedule-content">
-                        <p class="schedule-date">9.00 AM - 10.30 AM</p>
-                        <a class="schedule-title" href="#">
-                          <h3>Previous Year achivement</h3>
-                        </a>
-                        <p>And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="schedule-card">
-                  <div class="row no-gutters">
-                    <div class="col-md-3">
-                      <div class="card-identity">
-                        <img src="img/testimonial/testimonial3.png" alt="">
-                        <h3>Adam Jamsmith</h3>
-                        <p>UX/UI Designer</p>
-                      </div>
-                    </div>
-                    <div class="col-md-9 align-self-center">
-                      <div class="schedule-content">
-                        <p class="schedule-date">9.00 AM - 10.30 AM</p>
-                        <a class="schedule-title" href="#">
-                          <h3>Previous Year achivement</h3>
-                        </a>
-                        <p>And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning </p>
-                      </div>
+                  <div class="col-md-9 align-self-center">
+                    <div class="schedule-content">
+                      <p class="schedule-date">3.00 PM - 4.00 PM</p>
+                      <a class="schedule-title" href="#">
+                        <h3>FUTURE OF TECHNOLOGY - 4IR</h3>
+                      </a>
+                      <p>FUTURE OF TECHNOLOGY - 4IR</p>
                     </div>
                   </div>
                 </div>
               </div>
+
+              <div class="col-md-12 card mx-auto">
+                <div class="schedule-content mx-auto">
+                  <p class="schedule-date">4.00 PM - 4.30 PM</p>
+                  <a class="schedule-title" href="#">
+                    <h3>Foto en familia</h3>
+                  </a>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -377,104 +420,6 @@
   </section>
   <!--================ Schedule section End =================-->
 
-  <!--================ Gallery section Start =================-->
-  <section class="section-padding gallery-area gallery-bg">
-    <div class="container">
-      <div class="section-intro section-intro-white text-center pb-98px">
-        <p class="section-intro__title">Join the event</p>
-        <h2 class="primary-text">Event Plan Sponsors</h2>
-        <img src="img/home/section-style.png" alt="">
-      </div>
-
-      <div class="row no-gutters">
-        <div class="col-sm-6 col-md-4">
-          <a href="img/gallery/g1.png" class="img-gal">
-            <div class="single-imgs relative">
-              <img class="card-img rounded-0" src="img/gallery/g1.png" alt="">
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-icon">
-                    <i class="ti-plus"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <a href="img/gallery/g2.png" class="img-gal">
-            <div class="single-imgs relative">
-              <img class="card-img rounded-0" src="img/gallery/g2.png" alt="">
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-icon">
-                    <i class="ti-plus"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <a href="img/gallery/g3.png" class="img-gal">
-            <div class="single-imgs relative">
-              <img class="card-img rounded-0" src="img/gallery/g3.png" alt="">
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-icon">
-                    <i class="ti-plus"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <a href="img/gallery/g4.png" class="img-gal">
-            <div class="single-imgs relative">
-              <img class="card-img rounded-0" src="img/gallery/g4.png" alt="">
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-icon">
-                    <i class="ti-plus"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <a href="img/gallery/g5.png" class="img-gal">
-            <div class="single-imgs relative">
-              <img class="card-img rounded-0" src="img/gallery/g5.png" alt="">
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-icon">
-                    <i class="ti-plus"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <a href="img/gallery/g6.png" class="img-gal">
-            <div class="single-imgs relative">
-              <img class="card-img rounded-0" src="img/gallery/g6.png" alt="">
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-icon">
-                    <i class="ti-plus"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--================ Gallery section End =================-->
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
   <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
