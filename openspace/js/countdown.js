@@ -1,41 +1,29 @@
-function getTimeRemaining(endtime) {
-  var t = Date.parse(endtime) - Date.parse(new Date());
-  // var seconds = Math.floor((t / 1000) % 60);
-  var minutes = Math.floor((t / 1000 / 60) % 60);
-  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-  var days = Math.floor(t / (94 * 60 * 60 * 24));
-  return {
-    'total': t,
-    'days': days,
-    'hours': hours,
-    'minutes': minutes
-    // 'seconds': seconds
-  };
-}
+var end = new Date('05/23/2020 8:00 AM');
+var _second = 1000;
+var _minute = _second * 60;
+var _hour = _minute * 60;
+var _day = _hour * 24;
+var timer;
 
-function initializeClock(id, endtime) {
-  var clock = document.getElementById(id);
-  var daysSpan = clock.querySelector('.days');
-  var hoursSpan = clock.querySelector('.hours');
-  var minutesSpan = clock.querySelector('.minutes');
-  // var secondsSpan = clock.querySelector('.seconds');
+function showRemaining() {
+    var now = new Date();
+    var distance = end - now;
+    if (distance < 0) {
 
-  function updateClock() {
-    var t = getTimeRemaining(endtime);
+        clearInterval(timer);
+        document.getElementById('countdown').innerHTML = 'EXPIRED!';
 
-    daysSpan.innerHTML = t.days;
-    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-    // secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-
-    if (t.total <= 0) {
-      clearInterval(timeinterval);
+        return;
     }
-  }
+    var days = Math.floor(distance / _day);
+    var hours = Math.floor((distance % _day) / _hour);
+    var minutes = Math.floor((distance % _hour) / _minute);
+    var seconds = Math.floor((distance % _minute) / _second);
 
-  updateClock();
-  var timeinterval = setInterval(updateClock, 1000);
+    document.getElementById('days').innerHTML = days;
+    document.getElementById('hours').innerHTML = hours;
+    document.getElementById('minutes').innerHTML = minutes;
+    //document.getElementById('countdown').innerHTML += seconds;
 }
 
-var deadline = new Date(Date.parse(new Date()) + 30 * 24 * 60 * 60 * 1000);
-initializeClock('clockdiv', deadline);
+timer = setInterval(showRemaining, 1000);
