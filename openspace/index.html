@@ -100,7 +100,7 @@
               </li>
               <li class="nav-item text-center">
                 <a data-toggle="tab" href="#day3">
-                  <h4>Sala </h4>
+                  <h4>Sala Innovación</h4>
                   <p>22 Mayo, 2020</p>
                 </a>
               </li>
