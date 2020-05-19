@@ -88,19 +88,19 @@
             <ul class="nav nav-tabs">
               <li class="nav-item text-center">
                 <a class="active" data-toggle="tab" href="#day1">
-                  <h4>Sala 1</h4>
+                  <h4>Sala Familia</h4>
                   <p>22 Mayo, 2020</p>
                 </a>
               </li>
               <li class="nav-item text-center">
                 <a  data-toggle="tab" href="#day2">
-                  <h4>Sala 2</h4>
+                  <h4>Sala Pasión</h4>
                   <p>22 Mayo, 2020</p>
                 </a>
               </li>
               <li class="nav-item text-center">
                 <a data-toggle="tab" href="#day3">
-                  <h4>Sala 3</h4>
+                  <h4>Sala </h4>
                   <p>22 Mayo, 2020</p>
                 </a>
               </li>
@@ -144,9 +144,9 @@
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/speakers/avatar-mujer.png" alt="">
+                        <img src="img/speakers/xiomara.png" alt="">
                         <h3>Xiomara Cruz</h3>
-                        <p>Directora Financiera</p>
+                        <p>Contadora Pública, Esp. en Gerencia Financiera/Tributaria</p>
                       </div>
                     </div>
                     <div class="col-md-9 align-self-center">
@@ -187,7 +187,7 @@
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/speakers/avatar-mujer.png" alt="">
+                        <img src="img/speakers/orfenys.png" alt="">
                         <h3>Orfenys Perez</h3>
                         <p>Desarrolladora de Software</p>
                       </div>
@@ -212,9 +212,9 @@
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/speakers/avatar-hombre.jpg" alt="">
+                        <img src="img/speakers/roberto.png" alt="">
                         <h3>Roberto Gonzalez</h3>
-                        <p>Desarrollador de Negocios</p>
+                        <p>Ingeniero de Sistemas – Desarrollador de Negocios</p>
                       </div>
                     </div>
                     <div class="col-md-9 align-self-center">
@@ -299,9 +299,9 @@
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/speakers/avatar-hombre.jpg" alt="">
-                        <h3>Cristian De La Cruz</h3>
-                        <p>Desarrollador de software</p>
+                        <img src="img/speakers/cristian.png" alt="">
+                        <h3>Cristian A. De la cruz L.</h3>
+                        <p>MEng</p>
                       </div>
                     </div>
                     <div class="col-md-9 align-self-center">
@@ -310,7 +310,7 @@
                         <a class="schedule-title" href="#">
                           <h3>Ingenieria de requerimientos</h3>
                         </a>
-                        <p>Ingenieria de requerimientos</p>
+                        <p>La importancia de la ingeniería de requerimientos y sus procesos de elicitación</p>
                       </div>
                     </div>
                   </div>
@@ -331,7 +331,7 @@
                         <a class="schedule-title" href="#">
                           <h3>Usabilidad UX</h3>
                         </a>
-                        <p>Usabilidad UX</p>
+                        <p>Hacer que tus productos web sean usados</p>
                       </div>
                     </div>
                   </div>
@@ -341,9 +341,9 @@
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/speakers/avatar-mujer.png" alt="">
+                        <img src="img/speakers/alexandra.png" alt="">
                         <h3>Alexandra Rojas</h3>
-                        <p>Desarrolladora de Negocios/p>
+                        <p>Business Developer</p>
                       </div>
                     </div>
                     <div class="col-md-9 align-self-center">
