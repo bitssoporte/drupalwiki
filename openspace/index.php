@@ -362,7 +362,7 @@
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/speakers/avatar-mujer.png" alt="">
+                        <img src="img/speakers/ximena.png" alt="">
                         <img src="img/speakers/avatar-hombre.jpg" alt="">
                         <h3>Ximena y Edward</h3>
                         <p>Líder de proyectos y desarrollador de software</p>
