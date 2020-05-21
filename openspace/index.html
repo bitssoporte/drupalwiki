@@ -89,19 +89,19 @@
               <li class="nav-item text-center">
                 <a class="active" data-toggle="tab" href="#day1">
                   <h4>Sala Familia</h4>
-                  <p>22 Mayo, 2020</p>
+                  <p onclick="salaFamilia()">¡Únete aquí!</p>
                 </a>
               </li>
               <li class="nav-item text-center">
                 <a  data-toggle="tab" href="#day2">
                   <h4>Sala Pasión</h4>
-                  <p>22 Mayo, 2020</p>
+                  <p onclick="salaPasion()">¡Únete aquí!</p>
                 </a>
               </li>
               <li class="nav-item text-center">
                 <a data-toggle="tab" href="#day3">
                   <h4>Sala Innovación</h4>
-                  <p>22 Mayo, 2020</p>
+                  <p onclick="salaInnovacion()">¡Únete aquí!</p>
                 </a>
               </li>
             </ul>
@@ -111,7 +111,7 @@
               <div class="col-md-12 card mx-auto">
                 <div class="schedule-content mx-auto">
                   <p class="schedule-date">8.00 AM - 9.00 AM</p>
-                  <a class="schedule-title" href="#">
+                  <a class="schedule-title" href="https://us02web.zoom.us/j/82223398902" target="_blank">
                     <h3>BIENVENIDA</h3>
                   </a>
                 </div>
@@ -396,7 +396,7 @@
                       <a class="schedule-title" href="#">
                         <h3>FUTURE OF TECHNOLOGY - 4IR</h3>
                       </a>
-                      <p>FUTURE OF TECHNOLOGY - 4IR</p>
+                     <a href="https://us02web.zoom.us/j/82223398902" target="_blank"> <p>FUTURE OF TECHNOLOGY - 4IR ¡Únete aquí!</p></a>
                     </div>
                   </div>
                 </div>
@@ -405,7 +405,7 @@
               <div class="col-md-12 card mx-auto">
                 <div class="schedule-content mx-auto">
                   <p class="schedule-date">4.00 PM - 4.30 PM</p>
-                  <a class="schedule-title" href="#">
+                  <a class="schedule-title" href="https://us02web.zoom.us/j/82223398902" target="_blank">
                     <h3>Foto en familia</h3>
                   </a>
                 </div>
@@ -418,6 +418,21 @@
     </div>
   </section>
   <!--================ Schedule section End =================-->
+
+  <script>
+    function salaFamilia() {
+      window.open("https://us02web.zoom.us/j/82729634293");
+    }
+    function salaPasion() {
+      window.open("https://us02web.zoom.us/j/86781457111");
+    }
+    function salaInnovacion() {
+      window.open("https://us02web.zoom.us/j/85223645880");
+    }
+    function salaGeneral() {
+      window.open("https://us02web.zoom.us/j/82223398902");
+    }
+  </script>
 
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
