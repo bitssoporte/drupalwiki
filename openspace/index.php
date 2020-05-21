@@ -233,7 +233,7 @@
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/speakers/avatar-hombre.jpg" alt="">
+                        <img src="img/speakers/ludwring.png" alt="">
                         <h3>Ludwring Liccien</h3>
                         <p>Desarrollador de software</p>
                       </div>
@@ -276,7 +276,7 @@
                     <div class="col-md-3">
                       <div class="card-identity">
                         <img src="img/speakers/avatar-mujer.png" alt="">
-                        <img src="img/speakers/avatar-hombre.jpg" alt="">
+                        <img src="img/speakers/alberto.png" alt="">
                         <h3>Elizabeth y Alberto</h3>
                         <p>Desarrolladores de Software</p>
                       </div>
