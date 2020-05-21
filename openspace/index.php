@@ -254,7 +254,7 @@
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/speakers/avatar-hombre.jpg" alt="">
+                        <img src="img/speakers/luis.jpg" alt="">
                         <h3>Luis Bonilla</h3>
                         <p>Líder de proyectos</p>
                       </div>
@@ -275,7 +275,7 @@
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/speakers/avatar-mujer.png" alt="">
+                        <img src="img/speakers/elizabeth.jpg" alt="">
                         <img src="img/speakers/alberto.png" alt="">
                         <h3>Elizabeth y Alberto</h3>
                         <p>Desarrolladores de Software</p>
@@ -363,7 +363,7 @@
                     <div class="col-md-3">
                       <div class="card-identity">
                         <img src="img/speakers/ximena.png" alt="">
-                        <img src="img/speakers/avatar-hombre.jpg" alt="">
+                        <img src="img/speakers/edward.jpg" alt="">
                         <h3>Ximena y Edward</h3>
                         <p>Líder de proyectos y desarrollador de software</p>
                       </div>
