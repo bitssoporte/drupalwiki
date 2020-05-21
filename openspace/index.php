@@ -123,7 +123,7 @@
                   <div class="row no-gutters">
                     <div class="col-md-3">
                       <div class="card-identity">
-                        <img src="img/speakers/avatar-hombre.jpg" alt="">
+                        <img src="img/speakers/jose.jpeg" alt="">
                         <h3>Jose Barbosa</h3>
                         <p>Director de proyectos</p>
                       </div>
