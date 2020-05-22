@@ -112,7 +112,7 @@
                 <div class="schedule-content mx-auto">
                   <p class="schedule-date">8.00 AM - 9.00 AM</p>
                   <a class="schedule-title" href="https://us02web.zoom.us/j/82223398902" target="_blank">
-                    <h3>BIENVENIDA</h3>
+                    <h3>BIENVENIDA ¡ÚNETE AQUÍ!</h3>
                   </a>
                 </div>
               </div>
@@ -405,11 +405,8 @@
               <div class="col-md-12 card mx-auto">
                 <div class="schedule-content mx-auto">
                   <p class="schedule-date">4.00 PM - 4.30 PM</p>
-                  <a class="schedule-title" href="https://us02web.zoom.us/j/82223398902" target="_blank">
-                    <h3>Foto en familia</h3>
-                  </a>
                   <a class="schedule-title" href="https://is.gd/Av0wRi" target="_blank">
-                    <h3>¡Sube tu foto aquí!</h3>
+                    <h3>Foto en familia ¡Sube tu foto aquí!</h3>
                   </a>
                 </div>
               </div>
