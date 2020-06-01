@@ -1,0 +1,7 @@
+.cd-schedule__event a{
+    text-align: center;
+    padding-top: 25%  !important;
+}
+.cd-schedule__event a::before{
+   display: none;
+}
