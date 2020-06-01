@@ -5,3 +5,6 @@
 .cd-schedule__event a::before{
    display: none;
 }
+.cd-main-header h1 {
+    color: #002b49;
+}
