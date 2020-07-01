@@ -14,3 +14,7 @@
 .cd-schedule__events .nav-item{
     color: #4d73ae;
 }
+
+.cd-schedule__events a:link, .cd-schedule__events a:visited, .cd-schedule__events a:active {
+    text-decoration:none;
+}
